@@ -1,0 +1,657 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search img {
+    align-items: flex-start;
+    height: 45%;
+    margin: 1%;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    background: #e3ffcf;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.search input::placeholder {
+    color:  rgb(65, 189, 56);
+    padding: 20px;
+    font-size: 12px;
+    }
+
+.search button {
+    display: flex;
+    position: absolute;
+    height: 15px;
+    left: 1015px;
+    transform: translateX(100%);
+    z-index: 2; 
+    top: 32px;
+    background-color: rgb(0, 255, 68);
+    border: none;
+    outline: none;
+}
+
+.filtrado {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.filtrado a {
+    color: 28, 187, 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: small;
+    color:rgb(0, 206, 55);
+}
+
+.banner img {
+    margin: 0;
+    width: 100%;
+}
+
+/*Productossss*/
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    grid-gap: 30px;
+    margin: 3%;
+    margin-left: 4%;
+}
+
+.televisor {
+    background-color: rgb(124, 218, 138);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.televisor img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.televisor h2 {
+    color:rgb(235, 255, 238);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.televisor h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.televisor p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.televisor h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.televisor a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/* */
+
+.audifonos {
+    background-color: rgb(36, 190, 59);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.audifonos img {
+width: 170px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.audifonos h2 {
+    color:rgb(235, 255, 238);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.audifonos h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.audifonos p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.audifonos h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.audifonos a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/* */
+
+.libro {
+    background-color: rgb(124, 218, 138);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.libro img {
+width: 170px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.libro h2 {
+    color:rgb(235, 255, 238);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.libro h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.libro p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.libro h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.libro a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/* */
+
+.maleta {
+    background-color: rgb(36, 190, 59);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.maleta img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.maleta h2 {
+    color:rgb(112, 243, 132);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.maleta h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.maleta p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.maleta h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.maleta a {
+    color: rgb(112, 243, 132);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+/* */
+
+.celular {
+    background-color: rgb(124, 218, 138);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.celular img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.celular h2 {
+    color:rgb(235, 255, 238);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.celular h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.celular p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.celular h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.celular a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+/* */
+
+.silla {
+    background-color: rgb(36, 190, 59);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.silla img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.silla h2 {
+    color:rgb(112, 243, 132);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.silla h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.silla p {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.silla h5 {
+    color: rgb(7, 89, 20);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.silla a {
+    color: rgb(112, 243, 132);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+/*PARTE DE LOS FILTROSSS*/
+
+.filtroboton {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    margin: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .filtroboton input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+    margin: 0%;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 2.8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0%;
+  }
+
+.filtro1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+    width: 180px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.filtro1 h5 {
+    margin: 2%;
+    font-size: 11px;
+    color: rgb(26, 154, 45);
+}
+
+.filtroboton2 {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    margin: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .filtroboton2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+    margin: 0%;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 2.8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0%;
+  }
+
+.filtro2 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+    width: 180px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 30px;
+    border-radius: 4px;
+
+}
+
+.filtro2 h5 {
+    font-size: 11px;
+    color: rgb(26, 154, 45);
+}
+
+.filtros h2 {
+    font-weight: 600;
+    font-size: small;
+    color: rgb(26, 154, 45);
+}
+
+.filtros a {
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(26, 154, 45);
+}
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3%;
+    width: 190px;
+    background-color: rgb(236, 236, 236);
+    margin-left: 3%;
+    border-radius: 3%;
+
+}
+
+.filtros h3 {
+    margin-bottom: 1%;
+    font-size: larger;
+    color: rgb(26, 154, 45);
+}
+
+.filtros h4 {
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-weight: 100;
+    font-size: small;
+    color: rgb(26, 154, 45);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+

@@ -1,0 +1,253 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgb(131, 229, 144);
+    margin: 0;
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search img {
+    align-items: flex-start;
+    height: 45%;
+    margin: 1%;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    background: #e3ffcf;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.search input::placeholder {
+    color:  rgb(65, 189, 56);
+    padding: 20px;
+    font-size: 12px;
+    }
+
+.search button {
+    display: flex;
+    position: absolute;
+    height: 15px;
+    left: 1015px;
+    transform: translateX(100%);
+    z-index: 2; 
+    top: 32px;
+    background-color: rgb(0, 255, 68);
+    border: none;
+    outline: none;
+}
+
+.filtrado {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.filtrado a {
+    color: 28, 187, 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: small;
+    color:rgb(0, 206, 55);
+}
+
+/**/
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    margin-bottom: 2%;
+    height: fit-content;
+    
+}
+
+.contenedor img {
+    width: 35%;
+    margin: 2%;
+    align-self: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-right: 0%;
+    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto h5 {
+   background-color: rgb(23, 196, 0);
+   display: inline-block;
+   color: white;
+   padding: 5px 10px;
+   margin: 1%;
+   align-self: self-start;
+}
+
+.texto h2 {
+    color: rgb(0, 127, 0);
+    margin: 0%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.texto img {
+    margin: 0%;
+    align-self: self-start;
+    height: 60%;
+    width: 60%;
+    margin-bottom: 9%;
+}
+
+.texto p {
+    color: grey;
+    text-decoration: line-through;
+    margin: 0%;
+    margin-top: 7%;
+}
+.texto h1 {
+    color: rgb(0, 167, 31);
+    margin: 0%;
+}
+.texto h4 {
+    margin: 0%;
+    color: grey;
+    margin-top: 2%;
+}
+
+/**/
+
+.acciones {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 300px;
+    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.acciones h5 {
+    color: rgb(0, 187, 31);
+    margin: 0%;
+    font-size: medium;
+}
+.acciones p {
+    color: grey;
+    font-weight: 100;
+    margin: 0%;
+    font-size: small;
+    margin-bottom: 13%;
+}
+.acciones .boton {
+    color: rgb(225, 255, 228);
+    background-color: rgb(0, 216, 0);
+    border: none;
+    padding: 5%;
+    width: 300px;
+    align-self: center;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 6%;
+}
+.boton:hover {
+    background-color: #00ff2a;
+    color: white;
+}
+.boton:active {
+    background-color: #00ff2a;
+    color: white;
+}
+
+.acciones .boton2 {
+    color: rgb(0, 216, 0);
+    background-color: rgb(198, 255, 204);
+    border: none;
+    padding: 5%;
+    width: 300px;
+    align-self: center;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.boton2:hover {
+    background-color: #5dff78;
+    color: #009a1a;
+}
+.boton2:active {
+    background-color: #5dff78;
+    color: #009a1a;
+}
+.acciones h4 {
+    color: grey;
+    margin-top: 12%;
+}
+
+.acciones a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(23, 196, 0);
+    align-self: center;
+    font-size: small;
+    margin-top: 5%;
+}
+
+.fotos {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(16, 52, 12, 0.489);
+    height: fit-content;
+    margin-top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.fotos img {
+    height: 10%;
+    width: 10%;
+    margin: 1%;
+    border-color: #009a1a;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(16, 52, 12, 0.3);
+    margin: 3%;
+    height: fit-content;
+}
